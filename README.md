@@ -26,8 +26,9 @@ Overlay Display: Based on the number of fingers detected, a corresponding image 
 Performance Monitoring: The application calculates and displays the FPS to monitor real-time performance.
 
 Clone the repository:
-
+```bash
 git clone https://github.com/Aditya2434/Finger-Count-detection.git
+```
 
 Project Structure
 FingerCount.py: The main script that captures video, detects hands, counts fingers, and displays the results.

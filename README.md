@@ -16,9 +16,10 @@ To run this project, you need to have Python installed along with the following 
 OpenCV
 MediaPipe
 You can install the required libraries using pip:
+```python
 
 pip install opencv-python mediapipe
-
+```
 How It Works
 Hand Detection and Landmark Extraction: The application captures video from a webcam and uses MediaPipe to detect hands and extract landmarks for each detected hand.
 Finger Counting Algorithm: By analyzing the positions of key landmarks, the algorithm determines which fingers are raised and computes the total number.
